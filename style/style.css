@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to bottom, #5F2F83, #4B949A);
+}
+
+.conteudo {
+    
+    width: 920px;
+    background: #fff;
+    border-radius: 20px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#login {
+    display: flex;
+    height: 350px;
+}
+
+#imagem {
+    order: 2;
+    width: 50%;
+    background: black url('../img/pexels-oleksandr-pidvalnyi-2166553.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 0 20px 20px 0;
+}
+
+#titulo {
+    font-size: 2em;
+    font-weight: 600;
+    padding: 10px;
+}
+
+#text {
+    font-size: .8em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#formulario {
+    order: 1;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#user, #password {
+    background: #5F2F83;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    height: 41px;
+    
+}
+#user-symbol, #key-symbol {
+    padding: 5px;
+    color: #fff;
+    width: 40px;
+}
+
+#campo-email, #senha {
+    width: 100%;
+    height: 24px;
+    font-size: .9em;
+    font-weight: 300;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    border-radius: 8px;
+    background: #94CFCD;
+    
+   
+}
+
+#botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#entrar, #recovery {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: .9em;
+    color: #fff;
+    background: #4b939ace;
+}
+
+#recovery {
+    background: #fff;
+    color: #6CC29A;
+    border: 1px solid ;
+}
+
+#entrar:hover, #recovery:hover {
+    cursor: pointer;
+    background: #3e7a80;
+
+}
+
+
+
+
+
+
+
+

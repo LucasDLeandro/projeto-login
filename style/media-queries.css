@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media (max-width: 768px) {
+    
+    .conteudo {
+        display: flex;
+        height: 100vh;
+    }
+    
+}
+
+@media (max-width: 920px) {
+    .conteudo {
+        display: block;
+        max-width: 80%;
+        height: 280px;
+        margin: 0 10px 0 10px;
+    }
+
+    #imagem {
+        order: 1;
+        max-width: 35%;
+        height: 280px;
+        border-radius: 20px 0 0 20px;
+    }
+
+    #formulario {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #titulo {
+        font-size: 1.5em;
+        padding: 0;
+    }
+}
+
